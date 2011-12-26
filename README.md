@@ -1,6 +1,8 @@
 Charlotte Sometimes Post-mortem
 =================================
 
+![sketchbook image](http://www.hyperlogic.org/images/cs-postmortem01.jpeg]
+
 The Dare is my iron.  To quote Henry Rollins:
 
 > The Iron never lies to you. 
@@ -12,7 +14,8 @@ The Dare is my iron.  To quote Henry Rollins:
 > It never freaks out on me, never runs. Friends may come and go. 
 > But two hundred pounds is always two hundred pounds.
 
-Coding a game in 48 hours is a great humbler. I might think I'm a coding bad-ass but the Dare tells it true.
+Coding a game in 48 hours is humbling.
+I might think I'm a coding bad-ass but the Dare tells it true.
 
 My main goal was to spend less time on the code and more time on the art and the game.
 I did manage to spend more time on art, but I feel I failed on the level design.
@@ -37,6 +40,8 @@ It has all the dynamic language goodness: Garbage Collection, Arrays, Objects/Ha
 There were a couple times where I used properties to stick some random shit on an entity object. 
 No need to create accessors or mark things as public. Everything is open and changeable, like putty.
 Maybe not the best feature from a "Software Engineering" perspective, but this is a big advantage for writing code quickly.
+
+![sketchbook image](http://www.hyperlogic.org/images/cs-postmortem03.jpeg]
 
 ### Paper
 
@@ -69,6 +74,8 @@ To workaround, I had to add extra some extra fudge factor to gaps and had to wri
 Even with this, the act of moving the blocks is error-prone and frustrating.
 
 ### Game Design Fail
+
+![sketchbook image](http://www.hyperlogic.org/images/cs-postmortem02.jpeg]
 
 I blew all my time on the blocks and water flow, I didn't have enough time to implement the other mechanics needed to create a better puzzle game.
 It needed more game elements.  I had plans for pressure plates, traps and conveyor belts.
